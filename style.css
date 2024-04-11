@@ -1,0 +1,41 @@
+/* 基本样式 */
+body {
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; /* 设置字体 */
+  background-color: #f2f2f2; /* 设置背景颜色 */
+  color: #333; /* 设置文本颜色 */
+  margin: 0; /* 消除页面边距 */
+  padding: 0; /* 消除页面内边距 */
+}
+
+/* 标题样式 */
+h1 {
+  font-size: 36px; /* 设置标题字体大小 */
+  text-align: center; /* 居中标题 */
+  margin-top: 40px; /* 标题与上方内容的间距 */
+}
+
+/* 密码输入框样式 */
+#password-container {
+  width: 300px; /* 设置输入框宽度 */
+  margin: 0 auto; /* 水平居中 */
+  padding: 20px; /* 输入框内边距 */
+  border: 1px solid #ccc; /* 设置边框 */
+  border-radius: 5px; /* 设置边框圆角 */
+}
+
+/* 提交按钮样式 */
+#submit-btn {
+  padding: 10px 20px; /* 设置按钮内边距 */
+  background-color: #4CAF50; /* 设置按钮背景颜色 */
+  color: #fff; /* 设置按钮文本颜色 */
+  border: none; /* 去除按钮边框 */
+  border-radius: 5px; /* 设置按钮圆角 */
+  cursor: pointer; /* 设置鼠标指针样式 */
+}
+
+/* 错误提示样式 */
+.alert {
+  color: red; /* 设置错误提示文本颜色 */
+  text-align: center; /* 居中错误提示 */
+  margin-top: 20px; /* 错误提示与上方内容的间距 */
+}
